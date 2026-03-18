@@ -1,0 +1,66 @@
+/* ============================================
+   Estilos para páginas de detalle de proyecto
+   ============================================ */
+
+/* --- Enlace de regreso --- */
+.back-link {
+  display: inline-block;
+  color: #22d3ee;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.back-link:hover {
+  color: #ffffff;
+}
+
+/* --- Encabezado del proyecto --- */
+.project-detail-header {
+  margin-bottom: 40px;
+}
+
+.project-subtitle {
+  font-size: 18px;
+  max-width: 700px;
+  margin-top: 10px;
+}
+
+/* --- Imagen principal del proyecto --- */
+.project-detail-image {
+  background-color: #1e293b;
+  border-radius: 16px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #94a3b8;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+/* --- Cuerpo del proyecto --- */
+.project-detail-body h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.project-detail-body p {
+  max-width: 800px;
+}
+
+/* --- Etiquetas de tecnologías --- */
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tech-tag {
+  background-color: #1e293b;
+  color: #22d3ee;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+}
